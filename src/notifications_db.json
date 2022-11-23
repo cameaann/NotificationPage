@@ -1,0 +1,78 @@
+[
+    {
+        "id":"1",
+        "person":"Mark Veber",
+        "photoSrc":"",
+        "text":"reacted to your recent post",
+        "status":"unread",
+        "date":"1 m ago",
+        "linkName":"My first tournament today!",
+        "link":""
+
+    },
+    {
+        "id":"2",
+        "person":"Angela Gray",
+        "photoSrc":"",
+        "text":"followed you",
+        "status":"unread",
+        "date":"5 m ago",
+        "linkName":"",
+        "link":""
+
+    },
+    {
+        "id":"3",
+        "person":"Jacob Thompson",
+        "photoSrc":"",
+        "text":"has joined your group",
+        "status":"unread",
+        "date":"",
+        "linkName":"Chess Club",
+        "link":""
+    },
+    {
+        "id":"4",
+        "person":"Rizky Hasanuddin",
+        "photoSrc":"",
+        "text":"sent you a private message",
+        "status":"read",
+        "message":"Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
+        "date":"5 days ago",
+        "link":""
+
+    },
+    {
+        "id":"5",
+        "person":"Kimberly Smith",
+        "photoSrc":"",
+        "text":"commented on your picture",
+        "pictureUrl":"",
+        "status":"read",
+        "date":"1 week ago",
+        "link":""
+
+    },
+    {
+        "id":"6",
+        "person":"Nathan Peterson",
+        "photoSrc":"",
+        "text":"reacted to your recent post",
+        "status":"read",
+        "date":"2 weeks ago",
+        "linkName":"5 end-game strategies to increase your win rate",
+        "link":""
+
+    },
+    {
+        "id":"7",
+        "person":"Anna Kim",
+        "photoSrc":"",
+        "text":"left the group",
+        "status":"read",
+        "date":"2 weeks ago",
+        "linkName":"Chess Club",
+        "link":""
+
+    }
+]

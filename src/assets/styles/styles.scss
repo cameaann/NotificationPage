@@ -1,0 +1,58 @@
+@import 'variables.scss';
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', 'san serif';
+    font-size: $fsizeParagraph;
+    background-color: $verylightblue;
+
+}
+
+.wrap-container{
+    width:650px;
+    padding: 30px;
+    background-color:$white;
+    margin: 100px auto;
+    border-radius: 5px;
+    box-shadow: 1px 12px 25px -10px rgba($darkGrayishblue,0.32);
+    -webkit-box-shadow: 1px 12px 25px -10px rgba($darkGrayishblue,0.32);
+    -moz-box-shadow: 1px 12px 25px -10px rgba($darkGrayishblue,0.32);
+ 
+}
+
+
+.notification{
+    background-color: $verylightblue;
+    margin: 0 auto;
+    padding: 20px;
+    width:600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+    &__container{
+        // width:50rem;
+    }
+
+    &__userimage{
+        margin-right:10px;
+        width:50px;
+        height:50px;
+    }
+
+    &__username{
+        margin-right: 10px;
+        font-weight: 800;
+    }
+    &__message{
+        margin-right: 10px;
+    }
+    &__link{
+        margin-left: 10px;
+        color:hsl(219, 85%, 26%);
+        font-weight: 800;
+        text-decoration:none;
+    }
+}
