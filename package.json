@@ -2,6 +2,7 @@
   "name": "notification",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8080",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -36,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "http-server": "^14.1.1",
     "react-image-webp": "^0.8.0",
     "sass": "^1.56.1"
   }

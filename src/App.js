@@ -1,4 +1,4 @@
-import Notification from './components/notification';
+import Notifications from './components/notifications';
 
 
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className='wrap-container'>
-        <Notification/>
+        <Notifications/>
     </div>
 
   );
