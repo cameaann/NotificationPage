@@ -1,4 +1,32 @@
 @import 'variables.scss';
+@import 'mixins.scss';
+
+*,
+*::after,
+*::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+     // 1rem = 10px    10px/16px=62.5% width 1200-1800px
+     font-size: 62.5%;
+
+     @include response(tab-land){ //width<1200px
+         font-size: 56.25%; //1rem=9px 9px/16px=56.25%
+     }
+     @include response(tab-port){ //width<900px
+         font-size: 50%; //1rem=8px 8px/16px=50%
+     }
+     @include response(phone){
+         font-size: 44%; //1rem=7px 7px/16px=44%
+     }
+     @include response(big-desktop){ //width> 1800px
+         font-size: 75%; //1rem=12px 12/16=75%
+     }
+}
 
 body{
     margin: 0;
@@ -9,24 +37,27 @@ body{
 }
 
 .wrap-container{
-    width:650px;
-    padding: 30px;
+    width:60rem;
+    padding: 2rem;
     background-color:$white;
-    margin: 100px auto;
+    margin: 10rem auto;
     border-radius: 5px;
     box-shadow: 1px 12px 25px -10px rgba($darkGrayishblue,0.32);
     -webkit-box-shadow: 1px 12px 25px -10px rgba($darkGrayishblue,0.32);
     -moz-box-shadow: 1px 12px 25px -10px rgba($darkGrayishblue,0.32);
 
+
+    @include response(phone){
+        margin: 0 auto;
+    }
 }
 
 
 .notification{
-    margin: 10px auto;
-    padding: 20px;
-    width:610px;
+    margin: 1.2rem auto;
+    padding: 2rem;
+    width:54rem;
     display: flex;
-    // align-items: center;
     border-radius: 5px;
 
     &__container{
@@ -35,13 +66,13 @@ body{
     }
 
     &__userimage{
-        margin-right:10px;
-        width:50px;
-        height:50px;
+        margin-right:1rem;
+        width:5rem;
+        height:5rem;
     }
 
     &__username{
-        margin-right: 10px;
+        margin-right: 1rem;
         font-weight: 800;
 
         &:hover{
@@ -50,13 +81,13 @@ body{
         }
     }
     &__text{
-        margin-right: 10px;
+        // margin-right: 1rem;
     }
     &__message{
-        margin-top:10px;
+        margin-top:1rem;
         background-color:$white;
         border: 1px solid $lightGrayishBlue2;
-        padding: 20px;
+        padding: 2rem;
         border-radius: 5px;
 
         &:hover{
@@ -67,7 +98,7 @@ body{
 
     }
     &__link{
-        margin-left: 10px;
+        margin-left: 1rem;
         color:$veryDarkBlue;
         font-weight: 800;
         text-decoration:none;
@@ -80,8 +111,8 @@ body{
         color: $grayishBlue;
     }
     &__picture{
-        width:40px;
-        height: 40px;
+        width:5rem;
+        height: 5rem;
         cursor: pointer;
     }
 }
@@ -91,16 +122,18 @@ body{
 }
 
 .unreadMark{
-    display: block;
-    width:10px;
-    height: 10px;
+    display: inline-block;
+    width:1rem;
+    height: 1rem;
     border-radius: 50%;
     background-color: orange;
+    margin-left: 1rem;
 }
 
 .tab{
 
     &_container{
+        padding: 1.2rem;
         display: flex;
         align-items: center;
         justify-content:space-between;
@@ -112,14 +145,14 @@ body{
 
     &_title{
     font-weight: bold;
-    font-size: 24px;
+    font-size: 2.4rem;
     color: $veryDarkBlue;
 
     }
 
 }
 .newMessagesNumber{
-    margin-left: 10px;
+    margin-left: 1rem;
     display: block;
     color:$white;
     background-color: $blue;
@@ -135,7 +168,7 @@ body{
         color: $blue;
     }
 }
-.picture-box{
+.rcontent-box{
     flex: 3 20%;
     display: flex;
     justify-content: flex-end;
