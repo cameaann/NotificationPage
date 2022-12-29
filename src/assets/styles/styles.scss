@@ -20,7 +20,7 @@ html{
      @include response(tab-port){ //width<900px
          font-size: 50%; //1rem=8px 8px/16px=50%
      }
-     @include response(phone-mini){
+     @include response(phone){
          font-size: 44%; //1rem=7px 7px/16px=44%
      }
      @include response(big-desktop){ //width> 1800px
@@ -49,6 +49,7 @@ body{
 
     @include response(phone){
         margin: 0 auto;
+        width:54rem;
     }
 }
 
@@ -114,6 +115,10 @@ body{
         width:5rem;
         height: 5rem;
         cursor: pointer;
+    }
+
+    @include response(phone){
+        width: 48rem;
     }
 }
 
