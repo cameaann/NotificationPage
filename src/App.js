@@ -4,9 +4,9 @@ import Notifications from './components/notifications';
 function App() {
 
   return (
-    <div className='wrap-container'>
+    <main className='wrap-container'>
         <Notifications/>
-    </div>
+    </main>
 
   );
 }

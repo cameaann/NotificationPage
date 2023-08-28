@@ -12,7 +12,7 @@ export default function Notification(props) {
                         <div>
                             <span className='notification__username'>{ notification.person }</span>
                             <span className='notification__text'>{ notification.text}
-                                <a className='notification__link' href="/">{notification.linkName}</a>
+                                <a className='notification__link' href="/" aria-label="Read more">{notification.linkName}</a>
                             </span>
                             <span className= { notification.status ==='unread' ? 'unreadMark':'hidden'}></span>
 

@@ -7,7 +7,7 @@
         "status":"unread",
         "date":"1 m ago",
         "linkName":"My first tournament today!",
-        "link": ""
+        "link": "#"
 
     },
     {
@@ -18,7 +18,7 @@
         "status":"unread",
         "date":"5 m ago",
         "linkName":"",
-        "link":""
+        "link":"#"
 
     },
     {
@@ -39,7 +39,7 @@
         "status":"read",
         "message":"Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.",
         "date":"5 days ago",
-        "link":""
+        "link":"#"
     },
     {
         "id":"5",
@@ -49,7 +49,7 @@
         "pictureUrl":"",
         "status":"read",
         "date":"1 week ago",
-        "link":"",
+        "link":"#",
         "picture":"./img/image-chess.webp"
 
     },
@@ -61,7 +61,7 @@
         "status":"read",
         "date":"2 weeks ago",
         "linkName":"5 end-game strategies to increase your win rate",
-        "link":""
+        "link":"#"
 
     },
     {
@@ -72,7 +72,7 @@
         "status":"read",
         "date":"2 weeks ago",
         "linkName":"Chess Club",
-        "link":""
+        "link":"#"
 
     }
 ]
